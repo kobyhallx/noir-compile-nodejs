@@ -1,0 +1,19 @@
+{
+  "name": "noir-compile-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^5.2.0"
+  },
+  "dependencies": {
+    "@noir-lang/noir_wasm": "^0.3.2-29b1f7df",
+    "@noir-lang/noir-source-resolver": "^1.1.0"
+  }
+}
