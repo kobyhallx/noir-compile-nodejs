@@ -13,7 +13,7 @@
     "ava": "^5.2.0"
   },
   "dependencies": {
-    "@noir-lang/noir_wasm": "^0.3.2-29b1f7df",
+    "@noir-lang/noir_wasm": "^0.3.2-bcdfd526",
     "@noir-lang/noir-source-resolver": "^1.1.0"
   }
 }
