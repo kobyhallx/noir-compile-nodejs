@@ -22,7 +22,7 @@ test('It compiles noir Program code with default nodejs initializer, receiving c
         t.truthy(compiled_noir.circuit, "Expected circuite attribute.");
         t.truthy(compiled_noir.abi, "Expected abi attribute.");
     } catch (err) {
-        console.log(err);
+        t.fail(`Compile throws error: ${err}`);
     }
 
 });
